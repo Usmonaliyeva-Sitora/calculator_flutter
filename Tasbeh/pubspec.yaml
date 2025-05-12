@@ -1,16 +1,17 @@
-name: variant16
+name: tasbeh
 description: "A new Flutter project."
 publish_to: 'none'
 version: 0.1.0
 
 environment:
-  sdk: ^3.7.2
+  sdk: ">=3.7.0 <4.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  math_expressions: ^2.2.0
-
+  shared_preferences: ^2.2.2
+  vibration: ^1.8.6
+  flutter_ringtone_player: ^3.0.2
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -18,3 +19,6 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+
+  
+
